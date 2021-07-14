@@ -1,5 +1,13 @@
 # Honey_Bee_Colony_Loss_US
 
+### Team 3 Final Project
+   Team Members:
+   - Monica Holmes
+   - Sarah Manning
+   - Jeffte Meneus
+   - Ferris El-Rashad
+   - Olaide Akanbi
+
 ## Tracking Honey Bee Colony Loss in the US
 
 ![HoneyBees2](https://user-images.githubusercontent.com/78699465/125530200-7eb93760-cea2-4841-81f4-06c0c68ab18d.jpg)
@@ -17,12 +25,11 @@
 - Commercial production of many high-value and specialty crops such as tree nuts, berries, fruits, and vegetables depend on pollination by honey bees.  Almonds, for example, are almost completely dependent on honey bees for pollination. According to the USDA, of the 2.5 million colonies of bees in the United States, the almond crop in California alone requires approximately 2 million colonies, and this need is projected to increase significantly over the next few years. Growers depend increasingly on beekeepers from other states to transport Honey Bee colonies across the country to meet the pollination demand (a practice known as migratory beekeeping).
 
 
-### Stressors and Threats to Honey Bee Population in the US:
+### Stressors for Honey Bee Population in the US:
 
 - Colony Collaspe Disorder (CCD)
 - Parasites
 - Pathogens/Disease
-- Poor Nutrition
 - Pesticides
 - Improper Management of Bee Colonies
 
@@ -33,7 +40,7 @@
   This analysis was selected because we want to highlight the growing decline of Honey Bee colonies in the U.S.
   
  **Other questions we hope to answer:**
- 
+  - Do other factors such as weather, extreme temperatures due to climate change, air pollution and poor nutrition contribute to colony loss?
   - What measures can be implemented to help improve the health and habitate of Honey Bees in the US?
   - What can the general public do to help?
 
@@ -41,8 +48,8 @@
 
 Data Sources:
 - USDA National Agriculture Statistics Service: https://quickstats.nass.usda.gov/
-- USDA Economics, Statistics and Market Information Sysytem https://usda.library.cornell.edu/concern/publications/rn301137d?locale=en
-- Bee Informed Reasearch Project: https://research.beeinformed.org/
+- USDA Economics, Statistics and Market Information System: https://usda.library.cornell.edu/concern/publications/rn301137d?locale=en
+- Bee Informed Research Project: https://research.beeinformed.org/
 
 Data Description:
 
@@ -57,7 +64,7 @@ Data Description:
   - Python
   - Pandas library
   - Tableau
-  - Machine Learning Algorithm ....
+  - MLENV
 
 ### Machine Learning Model:
    - Multi-Linear Regression
@@ -81,14 +88,8 @@ Data Description:
   - A bar chart showing total annual colony loss with ability to select stressor data.
   <img width="362" alt="Total_Annual_Loss_Chart" src="https://user-images.githubusercontent.com/78699465/125523670-6b083912-013c-464c-96d5-49c71202bebe.png">
 
-### Team
-   - Monica Holmes
-   - Sarah Manning
-   - Jeffte Meneus
-   - Ferris El-Rashad
-   - Olaide Akanbi
     
-### Communication:
+### Communication Protocols:
    - Our team will meet 3x a week, outside of class on Zoom.
    - A Team Slack channel is used for messaging on a daily basis.
    - The Github repository for this project will be used for project tracking and communication.
