@@ -4,9 +4,9 @@
    Team Members:
    - Monica Holmes
    - Sarah Manning
-   - Jeffte Meneus
    - Ferris El-Rashad
    - Olaide Akanbi
+   - Jeffte Meneus
 
 ## Tracking Honey Bee Colony Loss in the US
 
@@ -46,7 +46,8 @@ There are many factor known to be contributing to high colony loss for managed h
   The purpose of this project is to analyze the data on Honey Bee Colony Loss from 2010 to 2020 to determine at what levels different stressors, focusing on  "The Four P's", are causing or contributing to the decline of managed honey bee colonies in the US in order to determine where funding and research should be focused.
 
 ### Why we chose this topic:
-  This analysis was selected because we want to highlight the growing decline of Honey Bee colonies in the U.S. Humans rely on honey bees for the production of many crops.  Due to serious health threats to honey bees it has become increasingly difficult for beekeepers to provide pollination for crops and run sustainable businesses.
+  This analysis was selected because we want to highlight the growing decline of Honey Bee colonies in the U.S.
+  Humans rely on honey bees for the production of many crops.  Due to serious health threats to honey bees it has become increasingly difficult for beekeepers to provide pollination for crops and run sustainable businesses.
   
  **Other questions we hope to answer:**
   - Do other factors due to climate change, such as extreme temperatures, drought, flooding or forest fires contribute to colony loss?
@@ -67,6 +68,12 @@ Data Description:
     <img width="775" alt="Bee_Colony_Loss_2010_2017_df" src="https://user-images.githubusercontent.com/78699465/125815660-3ada01d8-7ce0-4a0d-a7c8-771e5e4723db.png">
 
  - Data for Honey Bee Colony Loss from January 2017 to June 2020 was download from the USDA Economics, Statistics and Market Information System in multiple csv files. The data was then converted to a dataframe and cleaned using Pandas.
+
+Data Dictionary:
+![image](https://user-images.githubusercontent.com/78699465/125865115-4e0090ce-99c2-4740-b8a4-b34d294727a2.png)
+![image](https://user-images.githubusercontent.com/78699465/125865234-70dd297f-e6a2-400b-a264-a1d073265a72.png)
+![image](https://user-images.githubusercontent.com/78699465/125865283-1a84c059-1b2f-41b8-a96b-a80ceeeebb01.png)
+
     
 ### Resources: Technologies we will use for this analysis
 
@@ -82,6 +89,9 @@ Regression analysis is a form of predictive modelling technique which investigat
 
 
 ### Database Structure - DBD Diagram:
+
+![image](https://user-images.githubusercontent.com/78699465/125864252-4dc7360f-2f54-4311-8ce3-4f02ec17e77e.png)
+
 
 
 ### Dashboard: 
