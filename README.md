@@ -79,6 +79,8 @@ Data Description:
 
 ### Machine Learning Model:
    - Multi-Linear Regression
+Regression analysis is a form of predictive modelling technique which investigates the relationship between a dependent (target) and independent variable (s) (predictor). This technique is used for forecasting, time series modelling and finding the causal effect relationship between the variables. Linear Regression establishes a relationship between dependent variable (Y) and one or more independent variables (X) using a best fit straight line (also known as regression line). In other to show the correlation between our list of stressors and its effect on  honey bees we predicted that best a linear regression with a based fit line is more appropriate. With our independent variables (X) being the stressors and out dependent variables (Y) losses of honey bees.
+
 
 ### Database Structure - DBD Diagram:
 
