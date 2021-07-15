@@ -93,7 +93,9 @@ Regression analysis is a form of predictive modelling technique which investigat
 ![ERD](https://user-images.githubusercontent.com/78699465/125868962-b9b7de04-44a2-498a-84e7-a482c0cac631.png)
 
 **pgAdmin Database Query Sample:
-[PG Admin Code.docx](https://github.com/Saymanning/Honey_Bee_Colony_Loss_US/files/6826730/PG.Admin.Code.docx)
+![image](https://user-images.githubusercontent.com/78699465/125870683-d9bfac69-138e-40ba-a094-ddd8e7368d5e.png)
+![image](https://user-images.githubusercontent.com/78699465/125870707-b6df9639-8c10-4384-920f-87f002cca87b.png)
+![image](https://user-images.githubusercontent.com/78699465/125870941-d4ea8ef1-28f0-4fe7-9fc7-3ead2c31b289.png)
 
 
 ### Dashboard: 
