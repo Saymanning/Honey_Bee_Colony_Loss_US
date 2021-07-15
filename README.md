@@ -29,7 +29,7 @@ Why Should We Care About Honey Bees? No Honey Bees = No Food
 
 ### Stressors for Honey Bee Population in the US:
 
-There are many factor known to be contributing to high colony loss for managed honey bee colonies. These are called stressors. Most of these stressors can be grouped into what is known as, "The Four P's".
+There are many factors known to be contributing to high colony loss for managed honey bee colonies. These are called stressors. Most of these stressors can be grouped into what is known as, "The Four P's".
 
 **The Four P's**:
 - Parasites
