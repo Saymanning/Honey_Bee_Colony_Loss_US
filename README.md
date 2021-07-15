@@ -44,8 +44,9 @@ There are many factor known to be contributing to high colony loss for managed h
 ### Purpose of this analysis:
 
   The purpose of this project is to analyze the data on Honey Bee Colony Loss from 2010 to 2020 to determine at what levels differnet stressors, mainly "The Four P's", are causing or contributing to the decline of managed honey bee colonies in the US in order to determine where funding and funding for research should be focused.
-  
-  This analysis was selected because we want to highlight the growing decline of Honey Bee colonies in the U.S.
+
+### Why we chose this topic:
+  This analysis was selected because we want to highlight the growing decline of Honey Bee colonies in the U.S. Humans rely on honey bees for the production of many crops.  Due to serious health threats to honey bees it has become increasingly difficult for beekeepers to provide pollination for crops and run sustainable businesses.
   
  **Other questions we hope to answer:**
   - Do other factors due to climate change, such as extreme temperatures, drought, flooding or forest fires contribute to colony loss?
