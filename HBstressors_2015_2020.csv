@@ -1,4 +1,4 @@
-State,Varroa mites Percent,Other pests and parasites Percent,Diseases Percent,Pesticides Percent,Other Percent,Unknown Percent,Year,Qtr,
+State,Varroa_mites_Percent,Other_pests_and_parasites_Percent,Diseases_Percent,Pesticides_Percent,Other_Percent,Unknown_Percent,Year,Qtr,
 AL,10,5.4,(Z),2.2,9.1,9.4,2015,Q1,
 AZ,26.9,20.5,0.1,(Z),1.8,3.1,2015,Q1,
 AR,17.6,11.4,1.5,3.4,1,1,2015,Q1,
