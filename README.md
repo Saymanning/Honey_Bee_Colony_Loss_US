@@ -81,12 +81,18 @@ Data Description:
 
 
   
-  -  An interactive map of the US with following items: A dropdown menu with the ability to select the year to view Honey Bee colony loss by state or select the count of Beekeepers per state by year. As well as other variables.
+  -  Interactive maps of the US with following items: A dropdown menu with the ability to select the year to view Honey Bee colony loss by state or select the count of Beekeepers per state by year as well as other variables.
   
   <img width="481" alt="Beekeeper_by_State" src="https://user-images.githubusercontent.com/78699465/125522294-5a8caef3-9634-407d-a080-3278d0212bc3.png">
+  <img width="335" alt="Dashboard_3" src="https://user-images.githubusercontent.com/78699465/125798036-b7e311f0-f33b-4dc7-8f30-aeb881fb4216.png">
+  
 
-  - A bar chart showing total annual colony loss with ability to select stressor data.
-  <img width="362" alt="Total_Annual_Loss_Chart" src="https://user-images.githubusercontent.com/78699465/125523670-6b083912-013c-464c-96d5-49c71202bebe.png">
+  - Interactive charts showing total annual colony loss with ability to select, colony loss and stressor data by year and state.
+  
+      <img width="515" alt="Dashboard_2" src="https://user-images.githubusercontent.com/78699465/125797978-8affc9cf-a118-4eb4-a10b-6d601c98beb2.png">
+
+      <img width="551" alt="Dashboard_1" src="https://user-images.githubusercontent.com/78699465/125798183-31ea09d6-704d-4dd4-8c42-fdd5a2941f89.png">
+
 
     
 ### Communication Protocols:
