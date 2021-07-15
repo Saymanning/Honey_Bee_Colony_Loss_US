@@ -14,9 +14,11 @@
 
 
 
-### Why Should We Care About Honey Bees? No Honey Bees = No Food
+### Overview and Background
 
-- Honey Bee colony losses in the US have steadily increased over the past decade from an average of 26% loss in 2006 to 44% in 2017.
+Why Should We Care About Honey Bees? No Honey Bees = No Food
+
+- Honey Bee colony losses for managed bee colonies in the US have steadily increased over the past decade from an average of 26% loss in 2006 to 44% in 2017.
 
 - Agricultural productivity in the US is highly dependent on the European Honey Bee (Apis mellifera).
 
@@ -24,23 +26,29 @@
 
 - Commercial production of many high-value and specialty crops such as tree nuts, berries, fruits, and vegetables depend on pollination by honey bees.  Almonds, for example, are almost completely dependent on honey bees for pollination. According to the USDA, of the 2.5 million colonies of bees in the United States, the almond crop in California alone requires approximately 2 million colonies, and this need is projected to increase significantly over the next few years. Growers depend increasingly on beekeepers from other states to transport Honey Bee colonies across the country to meet the pollination demand (a practice known as migratory beekeeping).
 
-
 ### Stressors for Honey Bee Population in the US:
 
-- Colony Collaspe Disorder (CCD)
+There are many things known to be contributing to high colony loss for managed bee colonies. These are called, stressors. Most of these stressors can be grouped into what is known as, "The Four P's".
+
+**The Four P's**:
 - Parasites
-- Pathogens/Disease
+- Pathogens
 - Pesticides
-- Improper Management of Bee Colonies
+- Poor Nutrition
+
+**Colony Collaspe Disorder (CCD)**
+- Colony Collapse Disorder is a syndrome characterized by a group of very specific symptoms: the majority of worker bees in a hive disappear and leave behind a laying queen, plenty of food and a few nurse bees to care for the remaining immature bees and the queen. This essentially leaves the hive with no working population. As a result, the hive dies.
+- In 2006 CCD was responsible for destroying many managed honey bee colonies in the US.
+- Although scientists still don’t know for sure what causes CCD, it is not frequently seen today.  However, high annual losses related to the “4p’s”, listed above continue to be reported.
 
 ### Purpose of this analysis:
 
-  The purpose of this project is to analyze the data on Honey Bee Colony Loss from 2010 to 2020 to determine what threats and stressors are causing or contributing to the decline of Honey Bee colonies in the US.
+  The purpose of this project is to analyze the data on Honey Bee Colony Loss from 2010 to 2020 to determine at what levels stressors are causing or contributing to the decline of Managed Honey Bee colonies in the US in order to determine where funding and research efforts should be focused.
   
   This analysis was selected because we want to highlight the growing decline of Honey Bee colonies in the U.S.
   
  **Other questions we hope to answer:**
-  - Do other factors such as weather, extreme temperatures due to climate change, air pollution and poor nutrition contribute to colony loss?
+  - Do other factors due to climate change, such as extreme temperatures, drought, flooding or forest fires contribute to colony loss?
   - What measures can be implemented to help improve the health and habitate of Honey Bees in the US?
   - What can the general public do to help?
 
