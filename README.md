@@ -10,7 +10,8 @@
 
 ## Tracking Honey Bee Colony Loss in the US
 
-![HoneyBees2](https://user-images.githubusercontent.com/78699465/125530200-7eb93760-cea2-4841-81f4-06c0c68ab18d.jpg)
+![HoneyBees2](https://user-images.githubusercontent.com/78699465/125530200-7eb93760-cea2-4841-81f4-06c0c68ab18d.jpg)![Homer_Bees](https://user-images.githubusercontent.com/78699465/125868256-f7eac420-fd47-4102-aa7b-0282131ccba1.jpeg)
+
 
 
 
