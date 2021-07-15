@@ -1,4 +1,4 @@
-State,Number of Colonies,Maximum colonies 1/,Lost Colonies,Percent Loss 2/,Added Colonies,Renovated colonies 3/,Percent renovated 4/,Year,Qtr
+State,Number_of_Colonies,Maximum_colonies_1/,Lost_Colonies,Percent_Loss_2/,Added_Colonies,Renovated_colonies_3/,Percent_renovated_4/,Year,Qtr
 AL,7000,7000,1800,26,2800,250,4,2015,Q1
 AZ,35000,35000,4600,13,3400,2100,6,2015,Q1
 AR,13000,14000,1500,11,1200,90,1,2015,Q1
