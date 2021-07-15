@@ -92,6 +92,8 @@ Regression analysis is a form of predictive modelling technique which investigat
 ### Database Structure - DBD Diagram:
 ![ERD](https://user-images.githubusercontent.com/78699465/125868962-b9b7de04-44a2-498a-84e7-a482c0cac631.png)
 
+**pgAdmin Database Query Sample:
+[PG Admin Code.docx](https://github.com/Saymanning/Honey_Bee_Colony_Loss_US/files/6826730/PG.Admin.Code.docx)
 
 
 ### Dashboard: 
