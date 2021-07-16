@@ -50,7 +50,7 @@ There are many factors known to be contributing to high colony loss for managed 
   This analysis was selected because we want to highlight the growing decline of Honey Bee colonies in the U.S.
   Humans rely on honey bees for the production of many crops.  Due to serious health threats to honey bees it has become increasingly difficult for beekeepers to provide pollination for crops and run sustainable businesses.
   
- **Other questions we hope to answer:**
+ **Other questions we hope to investigate:**
   - Do other factors due to climate change, such as extreme temperatures, drought, flooding or forest fires contribute to colony loss?
   - What measures can be implemented to help improve the health and habitate of Honey Bees in the US?
   - What can the general public do to help?
