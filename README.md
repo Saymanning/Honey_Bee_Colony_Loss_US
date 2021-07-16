@@ -75,11 +75,37 @@ ETL:
 
 Data Dictionary:
 
-![image](https://user-images.githubusercontent.com/78699465/125872725-1e174bb2-584b-470d-87a5-8b87ee1d620d.png)
+DATA DICTIONARY: Colony_Loss_2015_2020
 
-![image](https://user-images.githubusercontent.com/78699465/125872680-78c456f0-901c-476e-bae4-dd599b553603.png)
+Honey Bee Colonies: Released by the National Agricultural Statistics Service (NASS), Agricultural Statistics Board, United States Department of Agriculture (USDA).
+Number of Colonies, Maximum, Lost, Percent Lost, Added, Renovated, and Percent Renovated with Five or More Colonies
 
-    
+COLUMNS:
+- State: String
+- Number of Colonies: integer  
+- Maximum colonies: integer
+- Lost Colonies: integer
+- Percent lost : percent.
+- Added Colonies: integer
+- Percent renovated: percent
+- Year: integer
+- Quarter: varchar
+
+DATA DICTIONARY: HBstressors_2015_2020
+
+Colony Health Stressors with Five or More Colonies
+
+COLUMNS:
+- State: string
+- Varroa_mites_Percent
+- Other_pests_and_parasites_Percent
+- Diseases_Percent
+- Pesticides_Percent 
+- Other_Percent
+- Unknown_Percent
+- ear: integer
+- Quarter: varchar
+
 ### Resources: Technologies we will use for this analysis
 
   - PostgreSQL
