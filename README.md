@@ -10,6 +10,11 @@
 
 ## Tracking Honey Bee Colony Loss in the US
 
+**Lisa:** Dad, we have to do something all the bees are dying!
+**Homer:** (sarcastically) Oh, no! No bees! Ooh, now who will sting me and walk all over my sandwiches?
+**Lisa:** But, Dad! Bees pollinate flowers.
+**Homer:** Pfft. Flowers, the painted whores of the plant world.
+
 ![HoneyBees2](https://user-images.githubusercontent.com/78699465/125530200-7eb93760-cea2-4841-81f4-06c0c68ab18d.jpg)![Homer_Bees](https://user-images.githubusercontent.com/78699465/125868256-f7eac420-fd47-4102-aa7b-0282131ccba1.jpeg)
 
 
