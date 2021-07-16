@@ -112,7 +112,7 @@ COLUMNS:
 - Pesticides_Percent 
 - Other_Percent
 - Unknown_Percent
-- ear: integer
+- Year: integer
 - Quarter: varchar
 
 (X)  Not applicable
