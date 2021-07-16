@@ -91,6 +91,10 @@ COLUMNS:
 - Year: integer
 - Quarter: varchar
 
+(X)  Not applicable
+(Z)  Less than half of the unit shown.
+
+
 DATA DICTIONARY: HBstressors_2015_2020
 
 Colony Health Stressors with Five or More Colonies
@@ -105,6 +109,10 @@ COLUMNS:
 - Unknown_Percent
 - ear: integer
 - Quarter: varchar
+
+(X)  Not applicable
+(Z)  Less than half of the unit shown.
+
 
 ### Resources: Technologies we will use for this analysis
 
