@@ -71,9 +71,10 @@ Data Description:
  - Data for Honey Bee Colony Loss from January 2017 to June 2020 was download from the USDA Economics, Statistics and Market Information System in multiple csv files. The data was then converted to a dataframe and cleaned using Pandas.
 
 Data Dictionary:
-![image](https://user-images.githubusercontent.com/78699465/125865115-4e0090ce-99c2-4740-b8a4-b34d294727a2.png)
-![image](https://user-images.githubusercontent.com/78699465/125865234-70dd297f-e6a2-400b-a264-a1d073265a72.png)
-![image](https://user-images.githubusercontent.com/78699465/125865283-1a84c059-1b2f-41b8-a96b-a80ceeeebb01.png)
+
+![image](https://user-images.githubusercontent.com/78699465/125872725-1e174bb2-584b-470d-87a5-8b87ee1d620d.png)
+
+![image](https://user-images.githubusercontent.com/78699465/125872680-78c456f0-901c-476e-bae4-dd599b553603.png)
 
     
 ### Resources: Technologies we will use for this analysis
