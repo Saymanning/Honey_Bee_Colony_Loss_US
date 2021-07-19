@@ -91,7 +91,6 @@ ETL:
 
 
 
- - Data for Honey Bee Stressors from January 2017 to June 2020 was download from the USDA Economics, Statistics and Market Information System in multiple csv files. The data was then converted to a dataframe and cleaned using Pandas.
 
 
 
