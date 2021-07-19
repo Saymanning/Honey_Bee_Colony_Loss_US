@@ -10,7 +10,17 @@
 
 ## Tracking Honey Bee Colony Loss in the US
 
+
+**Lisa:** Dad, we have to do something all the bees are dying!
+**Homer:** (sarcastically) Oh, no! No bees! Ooh, now who will sting me and walk all over my sandwiches?
+**Lisa:** But, Dad! Bees pollinate flowers.
+**Homer:** Pfft. Flowers, the painted whores of the plant world.
+
+
 ![HoneyBees2](https://user-images.githubusercontent.com/78699465/125530200-7eb93760-cea2-4841-81f4-06c0c68ab18d.jpg)
+
+![Homer_Bees](https://user-images.githubusercontent.com/78699465/125868256-f7eac420-fd47-4102-aa7b-0282131ccba1.jpeg)
+
 
 
 
@@ -63,16 +73,73 @@ Data Sources:
 Data Description:
 
 - The data for this analysis is accessible by downloading raw data in comma-separated value (CSV) files for import into a database, spreadsheet, or text editing program using the USDA National Agriculture Statistics Service Quick Tool.
-    The data we selected was downloaded in separate csv files by year from 2010 to 2017 and then combined into one csv file containing Honey Bee Colony Loss data from 2010 to 2017. The data was then converted to a dataframe and cleaned using Pandas.
+
+- The data we selected was downloaded in separate csv files by year from 2010 to 2017 and then combined into one csv file containing Honey Bee Colony Loss data from 2010 to 2017. 
+ 
+ETL: 
+- Next, data was then converted to a dataframe and cleaned using Pandas.
     
     <img width="775" alt="Bee_Colony_Loss_2010_2017_df" src="https://user-images.githubusercontent.com/78699465/125815660-3ada01d8-7ce0-4a0d-a7c8-771e5e4723db.png">
 
+
+
  - Data for Honey Bee Colony Loss from January 2017 to June 2020 was download from the USDA Economics, Statistics and Market Information System in multiple csv files. The data was then converted to a dataframe and cleaned using Pandas.
 
-Data Dictionary:
-![image](https://user-images.githubusercontent.com/78699465/125865115-4e0090ce-99c2-4740-b8a4-b34d294727a2.png)
-![image](https://user-images.githubusercontent.com/78699465/125865234-70dd297f-e6a2-400b-a264-a1d073265a72.png)
-![image](https://user-images.githubusercontent.com/78699465/125865283-1a84c059-1b2f-41b8-a96b-a80ceeeebb01.png)
+
+
+   ![image](https://user-images.githubusercontent.com/78371845/126084545-521af1f6-355a-4b75-9b0f-dad564997fca.png)
+
+
+
+ - Data for Honey Bee Stressors from January 2017 to June 2020 was download from the USDA Economics, Statistics and Market Information System in multiple csv files. The data was then converted to a dataframe and cleaned using Pandas.
+
+
+
+   ![image](https://user-images.githubusercontent.com/78371845/126084590-880de1d0-803c-475e-8fbb-f74c44cf2d34.png)
+
+
+
+
+### Data Dictionary:
+
+DATA DICTIONARY: Colony_Loss_2015_2020
+
+Honey Bee Colonies: Released by the National Agricultural Statistics Service (NASS), Agricultural Statistics Board, United States Department of Agriculture (USDA).
+Number of Colonies, Maximum, Lost, Percent Lost, Added, Renovated, and Percent Renovated with Five or More Colonies
+
+COLUMNS:
+- State: String
+- Number of Colonies: integer  
+- Maximum colonies: integer
+- Lost Colonies: integer
+- Percent lost : percent.
+- Added Colonies: integer
+- Percent renovated: percent
+- Year: integer
+- Quarter: varchar
+
+(X)  Not applicable
+(Z)  Less than half of the unit shown.
+
+
+DATA DICTIONARY: HBstressors_2015_2020
+
+Colony Health Stressors with Five or More Colonies
+
+COLUMNS:
+- State: string
+- Varroa_mites_Percent
+- Other_pests_and_parasites_Percent
+- Diseases_Percent
+- Pesticides_Percent 
+- Other_Percent
+- Unknown_Percent
+- Year: integer
+- Quarter: varchar
+
+(X)  Not applicable
+(Z)  Less than half of the unit shown.
+
 
     
 ### Resources: Technologies we will use for this analysis
@@ -88,9 +155,44 @@ Data Dictionary:
 Regression analysis is a form of predictive modelling technique which investigates the relationship between a dependent (target) and independent variable (s) (predictor). This technique is used for forecasting, time series modelling and finding the causal effect relationship between the variables. Linear Regression establishes a relationship between dependent variable (Y) and one or more independent variables (X) using a best fit straight line (also known as regression line). In other to show the correlation between our list of stressors and its effect on  honey bees we predicted that best a linear regression with a based fit line is more appropriate. With our independent variables (X) being the stressors and out dependent variables (Y) losses of honey bees.
 
 
+We used the Linear Regression model to train_test_split our Honey Bee loss prediction. First, the below graph shows the relationship of Years to Loss Colonies from 2015-2020.
+Next, the second image highlight the small progression of colony loss (yellow highlight) while also showing the red prediction line. NOTE: Although the below charts shows a small incline in colony loss over all states, it is our observation that a deeper look into perhaps the top 5-10 states my show a better visualiztion of the losses. 
+
+
+
+![image](https://user-images.githubusercontent.com/78371845/126090668-fc45b947-5222-4c71-bfe0-5b823d8b78a9.png)
+
+
+
+![image](https://user-images.githubusercontent.com/78371845/126091182-d0fa152f-fc0c-4f7b-a341-94f79c712f14.png)
+
+
+
+
+
 ### Database Structure - DBD Diagram:
 
-![image](https://user-images.githubusercontent.com/78699465/125864252-4dc7360f-2f54-4311-8ce3-4f02ec17e77e.png)
+![image](https://user-images.githubusercontent.com/78371845/126093456-4a16be48-c43d-49c8-a065-c34ab216bb78.png)
+
+
+
+
+**pgAdmin Database Query Sample:
+![image](https://user-images.githubusercontent.com/78699465/125870683-d9bfac69-138e-40ba-a094-ddd8e7368d5e.png)
+![image](https://user-images.githubusercontent.com/78699465/125870707-b6df9639-8c10-4384-920f-87f002cca87b.png)
+![image](https://user-images.githubusercontent.com/78699465/125870941-d4ea8ef1-28f0-4fe7-9fc7-3ead2c31b289.png)
+
+
+
+ ### SQL Prostgres used the join the database set together:
+
+   - We used an INNER JOIN to join the two datasets on "Year", "Qtr" and "State".
+   
+
+![image](https://user-images.githubusercontent.com/78371845/126084829-88dee035-2aff-453d-a8fa-a201d1cd4392.png)
+
+
+
 
 
 
