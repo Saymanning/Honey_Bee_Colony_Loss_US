@@ -77,7 +77,7 @@ Data Description:
 - The data we selected was downloaded in separate csv files by year from 2010 to 2017 and then combined into one csv file containing Honey Bee Colony Loss data from 2010 to 2017. 
  
 ETL: 
-- Next, data was then converted to a dataframe and cleaned using Pandas.
+- Next, data was converted to a dataframe and cleaned using Pandas.
     
     <img width="775" alt="Bee_Colony_Loss_2010_2017_df" src="https://user-images.githubusercontent.com/78699465/125815660-3ada01d8-7ce0-4a0d-a7c8-771e5e4723db.png">
 
