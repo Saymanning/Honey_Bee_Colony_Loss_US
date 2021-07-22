@@ -1,25 +1,30 @@
 # Honey_Bee_Colony_Loss_US
+![HoneyBees3](https://user-images.githubusercontent.com/78699465/126715621-51b7ac52-04c1-4f3b-91ae-9955dd097866.jpg)
+
 
 ### Team 3 Final Project
    Team Members:
    - Monica Holmes
    - Sarah Manning
+   - Jeffte Meneus
    - Ferris El-Rashad
    - Olaide Akanbi
-   - Jeffte Meneus
 
 ## Tracking Honey Bee Colony Loss in the US
 
 
 **Lisa:** Dad, we have to do something all the bees are dying!
+
 **Homer:** (sarcastically) Oh, no! No bees! Ooh, now who will sting me and walk all over my sandwiches?
+
 **Lisa:** But, Dad! Bees pollinate flowers.
+
 **Homer:** Pfft. Flowers, the painted whores of the plant world.
 
-
-![HoneyBees2](https://user-images.githubusercontent.com/78699465/125530200-7eb93760-cea2-4841-81f4-06c0c68ab18d.jpg)
-
 ![Homer_Bees](https://user-images.githubusercontent.com/78699465/125868256-f7eac420-fd47-4102-aa7b-0282131ccba1.jpeg)
+
+
+
 
 
 
@@ -28,7 +33,7 @@
 
 Why Should We Care About Honey Bees? No Honey Bees = No Food
 
-- Honey Bee colony losses for managed bee colonies in the US have steadily increased over the past decade from an average of 26% loss in 2006 to 44% in 2017.
+- Honey Bee colony losses for managed bee colonies in the US have steadily increased over the past decade from an average of 26% loss in 2006 to 45.5% loss in 2020.
 
 - Agricultural productivity in the US is highly dependent on the European Honey Bee (Apis mellifera).
 
@@ -47,20 +52,21 @@ There are many factors known to be contributing to high colony loss for managed 
 - Poor Nutrition
 
 **Colony Collaspe Disorder (CCD)**
-- Colony Collapse Disorder is a syndrome characterized by a group of very specific symptoms: the majority of worker bees in a hive disappear and leave behind a laying queen, plenty of food and a few nurse bees to care for the remaining immature bees and the queen. This essentially leaves the hive with no working population. As a result, the hive dies.
+
 - In 2006 CCD was responsible for destroying many managed honey bee colonies in the US.
+- Colony Collapse Disorder is a syndrome characterized by a group of very specific symptoms: the majority of worker bees in a hive disappear and leave behind a laying queen, plenty of food and a few nurse bees to care for the remaining immature bees and the queen. This essentially leaves the hive with no working population. As a result, the hive dies.
 - Although scientists still don’t know for sure what causes CCD, it is not frequently seen today.  However, high annual losses related to the “4p’s”, listed above continue to be reported.
 
 ### Purpose of this analysis:
 
-  The purpose of this project is to analyze the data on Honey Bee Colony Loss from 2010 to 2020 to determine at what levels different stressors, focusing on  "The Four P's", are causing or contributing to the decline of managed honey bee colonies in the US in order to determine where funding and research should be focused.
+  The purpose of this project is to analyze the data on Honey Bee Colony Loss from 2015 to 2020 to determine at what levels different stressors, focusing on “The Four P's", are causing or contributing to the decline of managed honey bee colonies in the US in order to better understand colony losses and determine what can be done to help reduce future losses.
 
 ### Why we chose this topic:
   This analysis was selected because we want to highlight the growing decline of Honey Bee colonies in the U.S.
   Humans rely on honey bees for the production of many crops.  Due to serious health threats to honey bees it has become increasingly difficult for beekeepers to provide pollination for crops and run sustainable businesses.
   
  **Other questions we hope to answer:**
-  - Do other factors due to climate change, such as extreme temperatures, drought, flooding or forest fires contribute to colony loss?
+  - Do other factors due to climate change, pollution, loss of biodiversity and habitate due to population growth contribute to colony loss?
   - What measures can be implemented to help improve the health and habitate of Honey Bees in the US?
   - What can the general public do to help?
 
@@ -73,8 +79,6 @@ Data Sources:
 Data Description:
 
 - The data for this analysis is accessible by downloading raw data in comma-separated value (CSV) files for import into a database, spreadsheet, or text editing program using the USDA National Agriculture Statistics Service Quick Tool.
-
-- The data we selected was downloaded in separate csv files by year from 2010 to 2017 and then combined into one csv file containing Honey Bee Colony Loss data from 2010 to 2017. 
  
 ETL: 
 - Next, data was converted to a dataframe and cleaned using Pandas.
@@ -83,7 +87,7 @@ ETL:
 
 
 
- - Data for Honey Bee Colony Loss from January 2017 to June 2020 was download from the USDA Economics, Statistics and Market Information System in multiple csv files. The data was then converted to a dataframe and cleaned using Pandas.
+ - Data for Honey Bee Colony Loss from January 2015 to June 2020 was download from the USDA Economics, Statistics and Market Information System in multiple csv files. The data was then converted to a dataframe and cleaned using Pandas.
 
 
 
@@ -97,64 +101,11 @@ ETL:
 
 
 
-
-### Data Dictionary:
-
-DATA DICTIONARY: Colony_Loss_2015_2020
-
-Honey Bee Colonies: Released by the National Agricultural Statistics Service (NASS), Agricultural Statistics Board, United States Department of Agriculture (USDA).
-Number of Colonies, Maximum, Lost, Percent Lost, Added, Renovated, and Percent Renovated with Five or More Colonies
-
-COLUMNS:
-- State: String
-- Number of Colonies: integer  
-- Maximum colonies: integer
-- Lost Colonies: integer
-- Percent lost : percent.
-- Added Colonies: integer
-- Percent renovated: percent
-- Year: integer
-- Quarter: varchar
-
-(X)  Not applicable
-(Z)  Less than half of the unit shown.
-
-
-DATA DICTIONARY: HBstressors_2015_2020
-
-Colony Health Stressors with Five or More Colonies
-
-COLUMNS:
-- State: string
-- Varroa_mites_Percent
-- Other_pests_and_parasites_Percent
-- Diseases_Percent
-- Pesticides_Percent 
-- Other_Percent
-- Unknown_Percent
-- Year: integer
-- Quarter: varchar
-
-(X)  Not applicable
-(Z)  Less than half of the unit shown.
-
-
-    
-### Resources: Technologies we will use for this analysis
-
-  - PostgreSQL
-  - Python
-  - Pandas library
-  - Tableau
-  - MLENV
-
 ### Machine Learning Model:
-   - Multi-Linear Regression
-Regression analysis is a form of predictive modelling technique which investigates the relationship between a dependent (target) and independent variable (s) (predictor). This technique is used for forecasting, time series modelling and finding the causal effect relationship between the variables. Linear Regression establishes a relationship between dependent variable (Y) and one or more independent variables (X) using a best fit straight line (also known as regression line). In other to show the correlation between our list of stressors and its effect on  honey bees we predicted that best a linear regression with a based fit line is more appropriate. With our independent variables (X) being the stressors and out dependent variables (Y) losses of honey bees.
-
+   - Initially, we chose to perform a linear regression analysis on two datasets we collected. Linear regression can show a relationship between variables and allows for forecasting future trends. After reviewing the analysis, it was decided to run a multi-linear regression due to the addition of a third dataset.
 
    - We used the Linear Regression model to train_test_split our Honey Bee loss prediction. First, the below graph shows the relationship of Years to Loss Colonies from 2015-2020.
-Next, the second image highlight the small progression of colony loss (yellow highlight) while also showing the red prediction line. NOTE: Although the below charts shows a small incline in colony loss over all states, it is our observation that a deeper look into perhaps the top 5-10 states my show a better visualiztion of the losses. 
+   - Next, the second image highlight the small progression of colony loss (yellow highlight) while also showing the red prediction line. The below charts shows a small incline in colony loss over all states. We found that due to the high variability of factors causing honey bee colony loss, it is difficult to determine whether one variable is more prevalent than another. However, in our analysis there is one trend that remains clear, there has been a slight reduction (see area highlighted in yellow below) in colony loss over the past 5 years. This has led to further investigation and analysis into the other question we hope to address in this analysis. Does climate change, pollution, loss of biodiversity and habitat due to population growth contribute to honey bee colony loss? Population growth in the US means increased resource consumption. Our country's biodiversity is disrupted and harmed  by the waste that is produced, which pollutes habitat and poisons wildlife, and the need for more wildlife habitat to be converted into agricultural and urban land.
 
 
 
@@ -194,30 +145,13 @@ Next, the second image highlight the small progression of colony loss (yellow hi
 
 
 
-### Dashboard: 
- Tableau will be used to create the dashboard for this project will include the following:
+ ### Dashboard: 
+ A dashboard for this project has been created in Tableau.
  
-  - An infographic with overview and background of the topic, honey bee colony loss in the US.
-  
- ![HBinfographic_small](https://user-images.githubusercontent.com/78699465/125529077-b90484c1-c7bd-4495-9ab3-5eeb44afe002.png)
+ ### Technologies and tools used for this analysis:
 
-
-  
-  -  Interactive maps of the US with following items: A dropdown menu with the ability to select the year to view Honey Bee colony loss by state or select the count of Beekeepers per state by year as well as other variables.
-  
-  <img width="481" alt="Beekeeper_by_State" src="https://user-images.githubusercontent.com/78699465/125522294-5a8caef3-9634-407d-a080-3278d0212bc3.png">
-  <img width="335" alt="Dashboard_3" src="https://user-images.githubusercontent.com/78699465/125798036-b7e311f0-f33b-4dc7-8f30-aeb881fb4216.png">
-  
-
-  - Interactive charts showing total annual colony loss with ability to select, colony loss and stressor data by year and state.
-  
-      <img width="515" alt="Dashboard_2" src="https://user-images.githubusercontent.com/78699465/125797978-8affc9cf-a118-4eb4-a10b-6d601c98beb2.png">
-
-      <img width="551" alt="Dashboard_1" src="https://user-images.githubusercontent.com/78699465/125798183-31ea09d6-704d-4dd4-8c42-fdd5a2941f89.png">
-
-
-    
-### Communication Protocols:
-   - Our team will meet 3x a week, outside of class on Zoom.
-   - A Team Slack channel is used for messaging on a daily basis.
-   - The Github repository for this project will be used for project tracking and communication.
+  - PostgreSQL
+  - Python
+  - Pandas library
+  - Tableau
+  - MLENV
