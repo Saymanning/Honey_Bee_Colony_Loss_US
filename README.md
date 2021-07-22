@@ -116,7 +116,7 @@ ETL:
    - We chose to perform a linear regression analysis on the datasets we collected. Linear regression can show a relationship between variables and allows for forecasting future trends.
 
    - We used the Linear Regression model to train_test_split our Honey Bee loss prediction. First, the below graph shows the relationship of Years to Loss Colonies from 2015-2020.
-Next, the second image highlight the small progression of colony loss (yellow highlight) while also showing the red prediction line. The below charts shows a small incline in colony loss over all states. We found that due to the high variability of factors causing honey bee colony loss, it is difficult to determine whether one variable is more prevelent than another. However, in our analysis there is one trend that remains clear, there has been no progression towards reductions in colony loss.
+Next, the second image highlight the small progression of colony loss (yellow highlight) while also showing the red prediction line. The below charts shows a small incline in colony loss over all states. We found that due to the high variability of factors causing honey bee colony loss, it is difficult to determine whether one variable is more prevelent than another. However, in our analysis there is one trend that remains clear, there has been no reduction in colony loss over the past 5 years.
 
 
 
