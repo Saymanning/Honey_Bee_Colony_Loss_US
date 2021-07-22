@@ -12,14 +12,18 @@
 
 
 **Lisa:** Dad, we have to do something all the bees are dying!
+
 **Homer:** (sarcastically) Oh, no! No bees! Ooh, now who will sting me and walk all over my sandwiches?
+
 **Lisa:** But, Dad! Bees pollinate flowers.
+
 **Homer:** Pfft. Flowers, the painted whores of the plant world.
+
+![Homer_Bees](https://user-images.githubusercontent.com/78699465/125868256-f7eac420-fd47-4102-aa7b-0282131ccba1.jpeg)
 
 
 ![HoneyBees2](https://user-images.githubusercontent.com/78699465/125530200-7eb93760-cea2-4841-81f4-06c0c68ab18d.jpg)
 
-![Homer_Bees](https://user-images.githubusercontent.com/78699465/125868256-f7eac420-fd47-4102-aa7b-0282131ccba1.jpeg)
 
 
 
@@ -28,17 +32,17 @@
 
 Why Should We Care About Honey Bees? No Honey Bees = No Food
 
-- Honey Bee colony losses for managed bee colonies in the US have steadily increased over the past decade from an average of 26% loss in 2006 to 44% in 2017.
+- Honey Bee colony losses for managed bee colonies in the US have steadily increased over the past decade from an average of 26% loss in 2006 to 45.5% loss in 2020.
 
 - Agricultural productivity in the US is highly dependent on the European Honey Bee (Apis mellifera).
 
-- The United States Department of Agriculture estimates that pollinators such as bees and butterflies help pollinate approximately 75 percent of the world's flowering plants and      pollinate roughly 35 percent of the world's food crops—including fruits and vegetables. It is estmated that one mouthful in three in our diet directly or indirectly benefits from Honey Bee pollination. 
+- The United States Department of Agriculture estimates that pollinators such as bees and butterflies help pollinate approximately 75 percent of the world's flowering plants and      pollinate roughly 35 percent of the world's food crops—including fruits and vegetables. It is estimated that one mouthful in three in our diet directly or indirectly benefits from Honey Bee pollination. 
 
 - Commercial production of many high-value and specialty crops such as tree nuts, berries, fruits, and vegetables depend on pollination by honey bees.  Almonds, for example, are almost completely dependent on honey bees for pollination. According to the USDA, of the 2.5 million colonies of bees in the United States, the almond crop in California alone requires approximately 2 million colonies, and this need is projected to increase significantly over the next few years. Growers depend increasingly on beekeepers from other states to transport Honey Bee colonies across the country to meet the pollination demand (a practice known as migratory beekeeping).
 
 ### Stressors for Honey Bee Population in the US:
 
-There are many factor known to be contributing to high colony loss for managed honey bee colonies. These are called stressors. Most of these stressors can be grouped into what is known as, "The Four P's".
+There are many factors known to be contributing to high colony loss for managed honey bee colonies. These are called stressors. Most of these stressors can be grouped into what is known as, "The Four P's".
 
 **The Four P's**:
 - Parasites
@@ -53,7 +57,7 @@ There are many factor known to be contributing to high colony loss for managed h
 
 ### Purpose of this analysis:
 
-  The purpose of this project is to analyze the data on Honey Bee Colony Loss from 2010 to 2020 to determine at what levels different stressors, focusing on  "The Four P's", are causing or contributing to the decline of managed honey bee colonies in the US in order to determine where funding and research should be focused.
+  The purpose of this project is to analyze the data on Honey Bee Colony Loss from 2015 to 2020 to determine at what levels different stressors, focusing on “The Four P's", are causing or contributing to the decline of managed honey bee colonies in the US in order to better understand colony losses and determine what can be done to help reduce future losses.
 
 ### Why we chose this topic:
   This analysis was selected because we want to highlight the growing decline of Honey Bee colonies in the U.S.
@@ -77,21 +81,19 @@ Data Description:
 - The data we selected was downloaded in separate csv files by year from 2010 to 2017 and then combined into one csv file containing Honey Bee Colony Loss data from 2010 to 2017. 
  
 ETL: 
-- Next, data was then converted to a dataframe and cleaned using Pandas.
+- Next, data was converted to a dataframe and cleaned using Pandas.
     
     <img width="775" alt="Bee_Colony_Loss_2010_2017_df" src="https://user-images.githubusercontent.com/78699465/125815660-3ada01d8-7ce0-4a0d-a7c8-771e5e4723db.png">
 
 
 
- - Data for Honey Bee Colony Loss from January 2017 to June 2020 was download from the USDA Economics, Statistics and Market Information System in multiple csv files. The data was then converted to a dataframe and cleaned using Pandas.
+ - Data for Honey Bee Colony Loss from January 2015 to June 2020 was download from the USDA Economics, Statistics and Market Information System in multiple csv files. The data was then converted to a dataframe and cleaned using Pandas.
 
 
 
    ![image](https://user-images.githubusercontent.com/78371845/126084545-521af1f6-355a-4b75-9b0f-dad564997fca.png)
 
 
-
- - Data for Honey Bee Stressors from January 2017 to June 2020 was download from the USDA Economics, Statistics and Market Information System in multiple csv files. The data was then converted to a dataframe and cleaned using Pandas.
 
 
 
@@ -100,49 +102,9 @@ ETL:
 
 
 
-### Data Dictionary:
-
-DATA DICTIONARY: Colony_Loss_2015_2020
-
-Honey Bee Colonies: Released by the National Agricultural Statistics Service (NASS), Agricultural Statistics Board, United States Department of Agriculture (USDA).
-Number of Colonies, Maximum, Lost, Percent Lost, Added, Renovated, and Percent Renovated with Five or More Colonies
-
-COLUMNS:
-- State: String
-- Number of Colonies: integer  
-- Maximum colonies: integer
-- Lost Colonies: integer
-- Percent lost : percent.
-- Added Colonies: integer
-- Percent renovated: percent
-- Year: integer
-- Quarter: varchar
-
-(X)  Not applicable
-(Z)  Less than half of the unit shown.
-
-
-DATA DICTIONARY: HBstressors_2015_2020
-
-Colony Health Stressors with Five or More Colonies
-
-COLUMNS:
-- State: string
-- Varroa_mites_Percent
-- Other_pests_and_parasites_Percent
-- Diseases_Percent
-- Pesticides_Percent 
-- Other_Percent
-- Unknown_Percent
-- Year: integer
-- Quarter: varchar
-
-(X)  Not applicable
-(Z)  Less than half of the unit shown.
-
 
     
-### Resources: Technologies we will use for this analysis
+### Resources: Technologies used for this analysis
 
   - PostgreSQL
   - Python
@@ -151,12 +113,10 @@ COLUMNS:
   - MLENV
 
 ### Machine Learning Model:
-   - Multi-Linear Regression
-Regression analysis is a form of predictive modelling technique which investigates the relationship between a dependent (target) and independent variable (s) (predictor). This technique is used for forecasting, time series modelling and finding the causal effect relationship between the variables. Linear Regression establishes a relationship between dependent variable (Y) and one or more independent variables (X) using a best fit straight line (also known as regression line). In other to show the correlation between our list of stressors and its effect on  honey bees we predicted that best a linear regression with a based fit line is more appropriate. With our independent variables (X) being the stressors and out dependent variables (Y) losses of honey bees.
+   - We chose to perform a linear regression analysis on the datasets we collected. Linear regression can show a relationship between variables and allows for forecasting future trends.
 
-
-We used the Linear Regression model to train_test_split our Honey Bee loss prediction. First, the below graph shows the relationship of Years to Loss Colonies from 2015-2020.
-Next, the second image highlight the small progression of colony loss (yellow highlight) while also showing the red prediction line. NOTE: Although the below charts shows a small incline in colony loss over all states, it is our observation that a deeper look into perhaps the top 5-10 states my show a better visualiztion of the losses. 
+   - We used the Linear Regression model to train_test_split our Honey Bee loss prediction. First, the below graph shows the relationship of Years to Loss Colonies from 2015-2020.
+Next, the second image highlight the small progression of colony loss (yellow highlight) while also showing the red prediction line. The below charts shows a small incline in colony loss over all states. We found that due to the high variability of factors causing honey bee colony loss, it is difficult to determine whether one variable is more prevelent than another. However, in our analysis there is one trend that remains clear, there has been no progression towards reductions in colony loss.
 
 
 
@@ -197,29 +157,4 @@ Next, the second image highlight the small progression of colony loss (yellow hi
 
 
 ### Dashboard: 
- Tableau will be used to create the dashboard for this project will include the following:
- 
-  - An infographic with overview and background of the topic, honey bee colony loss in the US.
-  
- ![HBinfographic_small](https://user-images.githubusercontent.com/78699465/125529077-b90484c1-c7bd-4495-9ab3-5eeb44afe002.png)
-
-
-  
-  -  Interactive maps of the US with following items: A dropdown menu with the ability to select the year to view Honey Bee colony loss by state or select the count of Beekeepers per state by year as well as other variables.
-  
-  <img width="481" alt="Beekeeper_by_State" src="https://user-images.githubusercontent.com/78699465/125522294-5a8caef3-9634-407d-a080-3278d0212bc3.png">
-  <img width="335" alt="Dashboard_3" src="https://user-images.githubusercontent.com/78699465/125798036-b7e311f0-f33b-4dc7-8f30-aeb881fb4216.png">
-  
-
-  - Interactive charts showing total annual colony loss with ability to select, colony loss and stressor data by year and state.
-  
-      <img width="515" alt="Dashboard_2" src="https://user-images.githubusercontent.com/78699465/125797978-8affc9cf-a118-4eb4-a10b-6d601c98beb2.png">
-
-      <img width="551" alt="Dashboard_1" src="https://user-images.githubusercontent.com/78699465/125798183-31ea09d6-704d-4dd4-8c42-fdd5a2941f89.png">
-
-
-    
-### Communication Protocols:
-   - Our team will meet 3x a week, outside of class on Zoom.
-   - A Team Slack channel is used for messaging on a daily basis.
-   - The Github repository for this project will be used for project tracking and communication.
+ A dashboard for this project has been created in Tableau.
