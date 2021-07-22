@@ -31,7 +31,7 @@
 
 ### Overview and Background
 
-Why Should We Care About Honey Bees? No Honey Bees = No Food
+Why Should We Care About Honey Bees? No Honey Bees = No Food! Without pollinators there is no farming. Without farming, we are all naked, hungry and sober.
 
 - Honey Bee colony losses for managed bee colonies in the US have steadily increased over the past decade from an average of 26% loss in 2006 to 45.5% loss in 2020.
 
