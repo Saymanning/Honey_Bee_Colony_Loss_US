@@ -51,8 +51,9 @@ There are many factors known to be contributing to high colony loss for managed 
 - Poor Nutrition
 
 **Colony Collaspe Disorder (CCD)**
-- Colony Collapse Disorder is a syndrome characterized by a group of very specific symptoms: the majority of worker bees in a hive disappear and leave behind a laying queen, plenty of food and a few nurse bees to care for the remaining immature bees and the queen. This essentially leaves the hive with no working population. As a result, the hive dies.
+
 - In 2006 CCD was responsible for destroying many managed honey bee colonies in the US.
+- Colony Collapse Disorder is a syndrome characterized by a group of very specific symptoms: the majority of worker bees in a hive disappear and leave behind a laying queen, plenty of food and a few nurse bees to care for the remaining immature bees and the queen. This essentially leaves the hive with no working population. As a result, the hive dies.
 - Although scientists still don’t know for sure what causes CCD, it is not frequently seen today.  However, high annual losses related to the “4p’s”, listed above continue to be reported.
 
 ### Purpose of this analysis:
@@ -154,5 +155,13 @@ Next, the second image highlight the small progression of colony loss (yellow hi
 
 
 
-### Dashboard: 
+ ### Dashboard: 
  A dashboard for this project has been created in Tableau.
+ 
+ ### Resources: Technologies used for this analysis
+
+  - PostgreSQL
+  - Python
+  - Pandas library
+  - Tableau
+  - MLENV
