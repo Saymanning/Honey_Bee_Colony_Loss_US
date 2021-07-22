@@ -64,7 +64,7 @@ There are many factors known to be contributing to high colony loss for managed 
   Humans rely on honey bees for the production of many crops.  Due to serious health threats to honey bees it has become increasingly difficult for beekeepers to provide pollination for crops and run sustainable businesses.
   
  **Other questions we hope to answer:**
-  - Do other factors due to climate change, such as extreme temperatures, drought, flooding or forest fires contribute to colony loss?
+  - Do other factors due to climate change, pollution, loss of biodiversity and habitate due to rapid population growth contribute to colony loss?
   - What measures can be implemented to help improve the health and habitate of Honey Bees in the US?
   - What can the general public do to help?
 
@@ -77,8 +77,6 @@ Data Sources:
 Data Description:
 
 - The data for this analysis is accessible by downloading raw data in comma-separated value (CSV) files for import into a database, spreadsheet, or text editing program using the USDA National Agriculture Statistics Service Quick Tool.
-
-- The data we selected was downloaded in separate csv files by year from 2010 to 2017 and then combined into one csv file containing Honey Bee Colony Loss data from 2010 to 2017. 
  
 ETL: 
 - Next, data was converted to a dataframe and cleaned using Pandas.
@@ -116,7 +114,7 @@ ETL:
    - We chose to perform a linear regression analysis on the datasets we collected. Linear regression can show a relationship between variables and allows for forecasting future trends.
 
    - We used the Linear Regression model to train_test_split our Honey Bee loss prediction. First, the below graph shows the relationship of Years to Loss Colonies from 2015-2020.
-Next, the second image highlight the small progression of colony loss (yellow highlight) while also showing the red prediction line. The below charts shows a small incline in colony loss over all states. We found that due to the high variability of factors causing honey bee colony loss, it is difficult to determine whether one variable is more prevelent than another. However, in our analysis there is one trend that remains clear, there has been no reduction in colony loss over the past 5 years.
+Next, the second image highlight the small progression of colony loss (yellow highlight) while also showing the red prediction line. The below charts shows a small incline in colony loss over all states. We found that due to the high variability of factors causing honey bee colony loss, it is difficult to determine whether one variable is more prevelent than another. However, in our analysis there is one trend that remains clear, there has been no reduction in colony loss over the past 5 years. This has led to further investigation and analysis into the other question we hope to address in this analysis. Does climate change, pollution, loss of biodiversity and habitate due to rapid population growth contribute to honey bee colony loss?
 
 
 
