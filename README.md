@@ -6,9 +6,9 @@
    Team Members:
    - Monica Holmes
    - Sarah Manning
+   - Jeffte Meneus
    - Ferris El-Rashad
    - Olaide Akanbi
-   - Jeffte Meneus
 
 ## Tracking Honey Bee Colony Loss in the US
 
