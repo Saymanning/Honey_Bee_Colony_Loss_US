@@ -1,5 +1,6 @@
 # Honey_Bee_Colony_Loss_US
-![HoneyBees3](https://user-images.githubusercontent.com/78699465/126715621-51b7ac52-04c1-4f3b-91ae-9955dd097866.jpg)
+![HoneyBees3](https://user-images.githubusercontent.com/78699465/126906328-c2b2a07d-a1cb-4468-a27e-e934821127ed.jpg)
+
 
 
 ### Team 3 Final Project
@@ -13,35 +14,16 @@
 ## Tracking Honey Bee Colony Loss in the US
 
 
-**Lisa:** Dad, we have to do something all the bees are dying!
-
-**Homer:** (sarcastically) Oh, no! No bees! Ooh, now who will sting me and walk all over my sandwiches?
-
-**Lisa:** But, Dad! Bees pollinate flowers.
-
-**Homer:** Pfft. Flowers, the painted whores of the plant world.
-
-![Homer_Bees](https://user-images.githubusercontent.com/78699465/125868256-f7eac420-fd47-4102-aa7b-0282131ccba1.jpeg)
-
-
-
-
-
-
 
 ### Overview and Background
+### Purpose of this analysis:
 
-Why Should We Care About Honey Bees? No Honey Bees = No Food! Without pollinators there is no farming. Without farming, we are all naked, hungry and sober.
+  Agricultural productivity in the US is highly dependent on the European Honey Bee (Apis mellifera). Honey Bee colony losses for managed bee colonies in the US have steadily increased over the past decade. The purpose of this project is to analyze the data on Honey Bee Colony Loss from 2015 to 2020 to determine at what levels different stressors, focusing on “The Four P's", are causing or contributing to the decline of managed honey bee colonies in the US in order to better understand colony losses and determine what can be done to help reduce future losses.
 
-- Honey Bee colony losses for managed bee colonies in the US have steadily increased over the past decade from an average of 26% loss in 2006 to 45.5% loss in 2020.
-
-- Agricultural productivity in the US is highly dependent on the European Honey Bee (Apis mellifera).
-
-- The United States Department of Agriculture estimates that pollinators such as bees and butterflies help pollinate approximately 75 percent of the world's flowering plants and      pollinate roughly 35 percent of the world's food crops—including fruits and vegetables. It is estimated that one mouthful in three in our diet directly or indirectly benefits from Honey Bee pollination. 
-
-- Commercial production of many high-value and specialty crops such as tree nuts, berries, fruits, and vegetables depend on pollination by honey bees.  Almonds, for example, are almost completely dependent on honey bees for pollination. According to the USDA, of the 2.5 million colonies of bees in the United States, the almond crop in California alone requires approximately 2 million colonies, and this need is projected to increase significantly over the next few years. Growers depend increasingly on beekeepers from other states to transport Honey Bee colonies across the country to meet the pollination demand (a practice known as migratory beekeeping).
-
-### Stressors for Honey Bee Population in the US:
+### Why we chose this topic:
+  This analysis was selected because we want to highlight the growing decline of Honey Bee colonies in the U.S.  Humans rely on honey bees for the production of many crops.  Due to serious health threats to honey bees it has become increasingly difficult for beekeepers to provide pollination for crops and run sustainable businesses.  Commercial production of many high-value and specialty crops such as tree nuts, berries, fruits, and vegetables depend on pollination by honey bees.  Almonds, for example, are almost completely dependent on honey bees for pollination. According to the USDA, of the 2.5 million colonies of bees in the United States, the almond crop in California alone requires approximately 2 million colonies, and this need is projected to increase significantly over the next few years. Growers depend increasingly on beekeepers from other states to transport Honey Bee colonies across the country to meet the pollination demand (a practice known as migratory beekeeping).
+  
+ ### Stressors for Honey Bee Population in the US:
 
 There are many factors known to be contributing to high colony loss for managed honey bee colonies. These are called stressors. Most of these stressors can be grouped into what is known as, "The Four P's".
 
@@ -57,18 +39,12 @@ There are many factors known to be contributing to high colony loss for managed 
 - Colony Collapse Disorder is a syndrome characterized by a group of very specific symptoms: the majority of worker bees in a hive disappear and leave behind a laying queen, plenty of food and a few nurse bees to care for the remaining immature bees and the queen. This essentially leaves the hive with no working population. As a result, the hive dies.
 - Although scientists still don’t know for sure what causes CCD, it is not frequently seen today.  However, high annual losses related to the “4p’s”, listed above continue to be reported.
 
-### Purpose of this analysis:
-
-  The purpose of this project is to analyze the data on Honey Bee Colony Loss from 2015 to 2020 to determine at what levels different stressors, focusing on “The Four P's", are causing or contributing to the decline of managed honey bee colonies in the US in order to better understand colony losses and determine what can be done to help reduce future losses.
-
-### Why we chose this topic:
-  This analysis was selected because we want to highlight the growing decline of Honey Bee colonies in the U.S.
-  Humans rely on honey bees for the production of many crops.  Due to serious health threats to honey bees it has become increasingly difficult for beekeepers to provide pollination for crops and run sustainable businesses.
   
  **Other questions we hope to answer:**
   - Do other factors due to climate change, pollution, loss of biodiversity and habitate due to population growth contribute to colony loss?
   - What measures can be implemented to help improve the health and habitate of Honey Bees in the US?
   - What can the general public do to help?
+
 
 ### Data Resources and Description:
 
