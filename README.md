@@ -31,7 +31,7 @@
 
 ### Overview and Background
 
-Why Should We Care About Honey Bees? No Honey Bees = No Food
+Why Should We Care About Honey Bees? No Honey Bees = No Food! Without pollinators there is no farming. Without farming, we are all naked, hungry and sober.
 
 - Honey Bee colony losses for managed bee colonies in the US have steadily increased over the past decade from an average of 26% loss in 2006 to 45.5% loss in 2020.
 
@@ -75,13 +75,14 @@ There are many factors known to be contributing to high colony loss for managed 
 Data Sources:
 - USDA National Agriculture Statistics Service: https://quickstats.nass.usda.gov/
 - USDA Economics, Statistics and Market Information System: https://usda.library.cornell.edu/concern/publications/rn301137d?locale=en
+- United States Census Bureau: https://www.census.gov/data/datasets/time-series/demo/popest/2010s-state-total.html#par_textimage_1873399417
 
 Data Description:
 
-- The data for this analysis is accessible by downloading raw data in comma-separated value (CSV) files for import into a database, spreadsheet, or text editing program using the USDA National Agriculture Statistics Service Quick Tool.
+- The data for this analysis is accessible by downloading raw data in comma-separated value (CSV) files for import into a database, spreadsheet, or text editing program using the USDA National Agriculture Statistics Service Quick Tool. US Population data was downloaded in csv file format from the United States Census Bureau website
  
 ETL: 
-- Next, data was converted to a dataframe and cleaned using Pandas.
+- Next, datasets were converted to a dataframe and cleaned using Pandas.
     
     <img width="775" alt="Bee_Colony_Loss_2010_2017_df" src="https://user-images.githubusercontent.com/78699465/125815660-3ada01d8-7ce0-4a0d-a7c8-771e5e4723db.png">
 
@@ -100,17 +101,6 @@ ETL:
    ![image](https://user-images.githubusercontent.com/78371845/126084590-880de1d0-803c-475e-8fbb-f74c44cf2d34.png)
 
 
-
-
-
-    
-### Resources: Technologies used for this analysis
-
-  - PostgreSQL
-  - Python
-  - Pandas library
-  - Tableau
-  - MLENV
 
 ### Machine Learning Model:
    - Initially, we chose to perform a linear regression analysis on two datasets we collected. Linear regression can show a relationship between variables and allows for forecasting future trends. After reviewing the analysis, it was decided to run a multi-linear regression due to the addition of a third dataset.
@@ -158,8 +148,9 @@ ETL:
 
  ### Dashboard: 
  A dashboard for this project has been created in Tableau.
+https://public.tableau.com/views/Honey_BeeColony_Loss_US/HoneyBeesProject?:language=en-US&:display_count=n&:origin=viz_share_link
  
- ### Resources: Technologies used for this analysis
+ ### Technologies and tools used for this analysis:
 
   - PostgreSQL
   - Python
