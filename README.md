@@ -1,5 +1,6 @@
 # Honey_Bee_Colony_Loss_US
-![HoneyBees3](https://user-images.githubusercontent.com/78699465/126715621-51b7ac52-04c1-4f3b-91ae-9955dd097866.jpg)
+![HoneyBees3](https://user-images.githubusercontent.com/78699465/126906328-c2b2a07d-a1cb-4468-a27e-e934821127ed.jpg)
+
 
 
 ### Team 3 Final Project
@@ -13,35 +14,16 @@
 ## Tracking Honey Bee Colony Loss in the US
 
 
-**Lisa:** Dad, we have to do something all the bees are dying!
-
-**Homer:** (sarcastically) Oh, no! No bees! Ooh, now who will sting me and walk all over my sandwiches?
-
-**Lisa:** But, Dad! Bees pollinate flowers.
-
-**Homer:** Pfft. Flowers, the painted whores of the plant world.
-
-![Homer_Bees](https://user-images.githubusercontent.com/78699465/125868256-f7eac420-fd47-4102-aa7b-0282131ccba1.jpeg)
-
-
-
-
-
-
 
 ### Overview and Background
+### Purpose of this analysis:
 
-Why Should We Care About Honey Bees? No Honey Bees = No Food! Without pollinators there is no farming. Without farming, we are all naked, hungry and sober.
+  Agricultural productivity in the US is highly dependent on the European Honey Bee (Apis mellifera). Honey Bee colony losses for managed bee colonies in the US have steadily increased over the past decade. The purpose of this project is to analyze the data on Honey Bee Colony Loss from 2015 to 2020 to determine at what levels different stressors, focusing on “The Four P's", are causing or contributing to the decline of managed honey bee colonies in the US in order to better understand colony losses and determine what can be done to help reduce future losses.
 
-- Honey Bee colony losses for managed bee colonies in the US have steadily increased over the past decade from an average of 26% loss in 2006 to 45.5% loss in 2020.
-
-- Agricultural productivity in the US is highly dependent on the European Honey Bee (Apis mellifera).
-
-- The United States Department of Agriculture estimates that pollinators such as bees and butterflies help pollinate approximately 75 percent of the world's flowering plants and      pollinate roughly 35 percent of the world's food crops—including fruits and vegetables. It is estimated that one mouthful in three in our diet directly or indirectly benefits from Honey Bee pollination. 
-
-- Commercial production of many high-value and specialty crops such as tree nuts, berries, fruits, and vegetables depend on pollination by honey bees.  Almonds, for example, are almost completely dependent on honey bees for pollination. According to the USDA, of the 2.5 million colonies of bees in the United States, the almond crop in California alone requires approximately 2 million colonies, and this need is projected to increase significantly over the next few years. Growers depend increasingly on beekeepers from other states to transport Honey Bee colonies across the country to meet the pollination demand (a practice known as migratory beekeeping).
-
-### Stressors for Honey Bee Population in the US:
+### Why we chose this topic:
+  This analysis was selected because we want to highlight the growing decline of Honey Bee colonies in the U.S.  Humans rely on honey bees for the production of many crops.  Due to serious health threats to honey bees it has become increasingly difficult for beekeepers to provide pollination for crops and run sustainable businesses.  Commercial production of many high-value and specialty crops such as tree nuts, berries, fruits, and vegetables depend on pollination by honey bees.  Almonds, for example, are almost completely dependent on honey bees for pollination. According to the USDA, of the 2.5 million colonies of bees in the United States, the almond crop in California alone requires approximately 2 million colonies, and this need is projected to increase significantly over the next few years. Growers depend increasingly on beekeepers from other states to transport Honey Bee colonies across the country to meet the pollination demand (a practice known as migratory beekeeping).
+  
+ ### Stressors for Honey Bee Population in the US:
 
 There are many factors known to be contributing to high colony loss for managed honey bee colonies. These are called stressors. Most of these stressors can be grouped into what is known as, "The Four P's".
 
@@ -51,24 +33,18 @@ There are many factors known to be contributing to high colony loss for managed 
 - Pesticides
 - Poor Nutrition
 
-**Colony Collaspe Disorder (CCD)**
+**Note Regarding Colony Collaspe Disorder (CCD)**
 
 - In 2006 CCD was responsible for destroying many managed honey bee colonies in the US.
 - Colony Collapse Disorder is a syndrome characterized by a group of very specific symptoms: the majority of worker bees in a hive disappear and leave behind a laying queen, plenty of food and a few nurse bees to care for the remaining immature bees and the queen. This essentially leaves the hive with no working population. As a result, the hive dies.
 - Although scientists still don’t know for sure what causes CCD, it is not frequently seen today.  However, high annual losses related to the “4p’s”, listed above continue to be reported.
 
-### Purpose of this analysis:
-
-  The purpose of this project is to analyze the data on Honey Bee Colony Loss from 2015 to 2020 to determine at what levels different stressors, focusing on “The Four P's", are causing or contributing to the decline of managed honey bee colonies in the US in order to better understand colony losses and determine what can be done to help reduce future losses.
-
-### Why we chose this topic:
-  This analysis was selected because we want to highlight the growing decline of Honey Bee colonies in the U.S.
-  Humans rely on honey bees for the production of many crops.  Due to serious health threats to honey bees it has become increasingly difficult for beekeepers to provide pollination for crops and run sustainable businesses.
   
  **Other questions we hope to answer:**
   - Do other factors due to climate change, pollution, loss of biodiversity and habitate due to population growth contribute to colony loss?
   - What measures can be implemented to help improve the health and habitate of Honey Bees in the US?
   - What can the general public do to help?
+
 
 ### Data Resources and Description:
 
@@ -106,7 +82,9 @@ ETL:
    - Initially, we chose to perform a linear regression analysis on two datasets we collected. Linear regression can show a relationship between variables and allows for forecasting future trends. After reviewing the analysis, it was decided to run a multi-linear regression due to the addition of a third dataset.
 
    - We used the Linear Regression model to train_test_split our Honey Bee loss prediction. First, the below graph shows the relationship of Years to Loss Colonies from 2015-2020.
-   - Next, the second image highlight the small progression of colony loss (yellow highlight) while also showing the red prediction line. The below charts shows a small incline in colony loss over all states. We found that due to the high variability of factors causing honey bee colony loss, it is difficult to determine whether one variable is more prevalent than another. However, in our analysis there is one trend that remains clear, there has been a slight reduction (see area highlighted in yellow below) in colony loss over the past 5 years. This has led to further investigation and analysis into the other question we hope to address in this analysis. Does climate change, pollution, loss of biodiversity and habitat due to population growth contribute to honey bee colony loss? Population growth in the US means increased resource consumption. Our country's biodiversity is disrupted and harmed  by the waste that is produced, which pollutes habitat and poisons wildlife, and the need for more wildlife habitat to be converted into agricultural and urban land.
+   - Next, the second image highlights the small progression of colony loss (yellow highlight) while also showing the red prediction line. The below charts shows a small incline in colony loss over all states. We found that due to the high variability of factors causing honey bee colony loss, it is difficult to determine whether one variable is more prevalent than another. However, in our analysis there is one trend that remains clear, there has been a slight reduction (see area highlighted in yellow below) in colony loss over the past 5 years.
+   - Our group decided to further investigate and analyze another question we hope to address in this analysis. Does climate change, pollution, loss of biodiversity and habitat due to population growth contribute to honey bee colony loss? Population growth in the US means increased resource consumption. Our country's biodiversity is disrupted and harmed  by the waste that is produced, which pollutes habitat and poisons wildlife, and the need for more wildlife habitat to be converted into agricultural and urban land.
+   - A new dataset was downloaded in csv format from the US Dpartemnt of Census. The data was cleaned and converted to a dataframe using Pandas. Our goal is to run an ARIMA model with the addition of this new dataset.
 
 
 
@@ -122,7 +100,8 @@ ETL:
 
 ### Database Structure - DBD Diagram:
 
-![image](https://user-images.githubusercontent.com/78371845/126093456-4a16be48-c43d-49c8-a065-c34ab216bb78.png)
+![ERD_Merged_3](https://user-images.githubusercontent.com/78699465/126906735-7114eea3-a764-4027-9885-3f3bc7f5995c.PNG)
+
 
 
 
