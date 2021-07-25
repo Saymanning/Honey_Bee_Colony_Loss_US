@@ -98,7 +98,8 @@ ETL:
 
 ### Database Structure - DBD Diagram:
 
-![image](https://user-images.githubusercontent.com/78371845/126093456-4a16be48-c43d-49c8-a065-c34ab216bb78.png)
+![ERD_Merged_3](https://user-images.githubusercontent.com/78699465/126906735-7114eea3-a764-4027-9885-3f3bc7f5995c.PNG)
+
 
 
 
