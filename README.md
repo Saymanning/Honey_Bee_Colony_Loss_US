@@ -33,7 +33,7 @@ There are many factors known to be contributing to high colony loss for managed 
 - Pesticides
 - Poor Nutrition
 
-**Colony Collaspe Disorder (CCD)**
+**Note Regarding Colony Collaspe Disorder (CCD)**
 
 - In 2006 CCD was responsible for destroying many managed honey bee colonies in the US.
 - Colony Collapse Disorder is a syndrome characterized by a group of very specific symptoms: the majority of worker bees in a hive disappear and leave behind a laying queen, plenty of food and a few nurse bees to care for the remaining immature bees and the queen. This essentially leaves the hive with no working population. As a result, the hive dies.
