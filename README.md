@@ -84,7 +84,7 @@ ETL:
    - We used the Linear Regression model to train_test_split our Honey Bee loss prediction. First, the below graph shows the relationship of Years to Loss Colonies from 2015-2020.
    - Next, the second image highlights the small progression of colony loss (yellow highlight) while also showing the red prediction line. The below charts shows a small incline in colony loss over all states. We found that due to the high variability of factors causing honey bee colony loss, it is difficult to determine whether one variable is more prevalent than another. However, in our analysis there is one trend that remains clear, there has been a slight reduction (see area highlighted in yellow below) in colony loss over the past 5 years.
    - Our group decided to further investigate and analyze another question we hope to address in this analysis. Does climate change, pollution, loss of biodiversity and habitat due to population growth contribute to honey bee colony loss? Population growth in the US means increased resource consumption. Our country's biodiversity is disrupted and harmed  by the waste that is produced, which pollutes habitat and poisons wildlife, and the need for more wildlife habitat to be converted into agricultural and urban land.
-   - A new dataset was downloaded in csv format from the US Dpartemnt of Census. The data was cleaned and converted to a dataframe using Pandas. Our goal is to run an ARIMA model with the addition of this new dataset.
+   - A new dataset was downloaded in csv format from the US Dpartemnt of Census. The data was cleaned and converted to a dataframe using Pandas. Our next step was to run an ARIMA model with the addition of this new dataset. We were unsuccessful. With 48 hours left we also attempted to run a model with Facebook Profit. Again, we were unsuccessful.
 
 
 
@@ -133,6 +133,14 @@ ETL:
    
    - Tableau Story: 
    https://public.tableau.com/shared/M8ZK2BDCS?:display_count=n&:origin=viz_share_link
+   
+ ### Conclusions:
+ - Our analysis confirms that honey bee colony loss is on the rise. We can also conclude that there are many stressors and environmental issues contributing to honey be e colony loss, which can vary in severity from year to year.
+ 
+ What can be done?
+ - Further research in areas of...
+ - Having proper habitat and diversity for honey bees helps bees to mitigate a multitude of stressors, including pests and diseases, pesticides and transportation. 
+ - Educate the public as well as growers and landowners about the value of providing honey bee forage, many acres of potential honey bee habitat can be made available to sustain nutrition-starved honey bees
    
  ### Technologies and tools used for this analysis:
 
