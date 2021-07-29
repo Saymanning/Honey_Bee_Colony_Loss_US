@@ -126,13 +126,21 @@ ETL:
 
 
  ### Dashboard: 
- A dashboard for this project has been created in Tableau.
-https://public.tableau.com/views/Honey_BeeColony_Loss_US/LossByStatewAvg?:language=en-US&:display_count=n&:origin=viz_share_link
- 
+   A dashboard and a story for this project were created in Tableau.
+   Dashboard:
+   https://public.tableau.com/views/Honey_BeeColony_Loss_US/HoneyBeeColonyDashboard?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link
+   Tableau Story: 
+   https://public.tableau.com/shared/M8ZK2BDCS?:display_count=n&:origin=viz_share_link
+   
  ### Technologies and tools used for this analysis:
 
   - PostgreSQL
+  - GitHub
+  - Jupyter Notebook
+  - Google Colaboratory
   - Python
   - Pandas library
   - Tableau
   - MLENV
+  - ARIMA
+  - Facebook Profit
