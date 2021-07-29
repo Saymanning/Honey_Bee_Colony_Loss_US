@@ -127,7 +127,7 @@ ETL:
 
  ### Dashboard: 
  A dashboard for this project has been created in Tableau.
-https://public.tableau.com/views/Honey_BeeColony_Loss_US/HoneyBeesProject?:language=en-US&:display_count=n&:origin=viz_share_link
+https://public.tableau.com/views/Honey_BeeColony_Loss_US/LossByStatewAvg?:language=en-US&:display_count=n&:origin=viz_share_link
  
  ### Technologies and tools used for this analysis:
 
