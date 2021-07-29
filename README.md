@@ -138,7 +138,7 @@ ETL:
  - Our analysis confirms that honey bee colony loss is on the rise. We can also conclude that there are many stressors and environmental issues contributing to honey be e colony loss, which can vary in severity from year to year.
  
  What can be done?
- - Further research in areas of...
+ - Further research and analysis in ares of climate change. One of the biggest impacts of climate change on honey bees is change in foraging resources over the landscape.  As plants emerge at different times compared to years past, plant-pollinator relationships can fall out of sync.
  - Having proper habitat and diversity for honey bees helps bees to mitigate a multitude of stressors, including pests and diseases, pesticides and transportation. 
  - Educate the public as well as growers and landowners about the value of providing honey bee forage, many acres of potential honey bee habitat can be made available to sustain nutrition-starved honey bees
    
