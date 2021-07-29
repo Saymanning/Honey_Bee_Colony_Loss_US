@@ -127,9 +127,11 @@ ETL:
 
  ### Dashboard: 
    A dashboard and a story for this project were created in Tableau.
-   Dashboard:
+   
+   - Dashboard
    https://public.tableau.com/views/Honey_BeeColony_Loss_US/HoneyBeeColonyDashboard?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link
-   Tableau Story: 
+   
+   - Tableau Story: 
    https://public.tableau.com/shared/M8ZK2BDCS?:display_count=n&:origin=viz_share_link
    
  ### Technologies and tools used for this analysis:
