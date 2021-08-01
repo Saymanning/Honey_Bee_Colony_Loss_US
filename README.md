@@ -94,7 +94,15 @@ ETL:
 
  - Our group decided to further investigate and analyze another question we hope to address in this analysis. Does climate change, pollution, loss of biodiversity and habitat due to population growth contribute to honey bee colony loss? Population growth in the US means increased resource consumption. Our country's biodiversity is disrupted and harmed  by the waste that is produced, which pollutes habitat and poisons wildlife, and the need for more wildlife habitat to be converted into agricultural and urban land.
  
- - A new dataset was downloaded in csv format from the US Dpartemnt of Census. The data was cleaned and converted to a dataframe using Pandas. Our next step was to run an ARIMA model with the addition of this new dataset. https://github.com/Saymanning/Honey_Bee_Colony_Loss_US/blob/3a5924243e557f4ab1b6f861ba10f588f2f342a4/Machine%20Learning/Arima_Regression.ipynbWe 
+ - A new dataset was downloaded in csv format from the US Dpartemnt of Census. The data was cleaned and converted to a dataframe using Pandas. Our next step was to run an ARIMA model with the addition of this new dataset.
+ - ARIMA
+ https://github.com/Saymanning/Honey_Bee_Colony_Loss_US/blob/3a5924243e557f4ab1b6f861ba10f588f2f342a4/Machine%20Learning/Arima_Regression.ipynbWe 
+ - Random Forest Regression:
+ https://github.com/Saymanning/Honey_Bee_Colony_Loss_US/blob/main/Machine%20Learning/Random_Forest_Regression.ipynb
+ -Pesticides Decision Tree Regression:
+ https://github.com/Saymanning/Honey_Bee_Colony_Loss_US/blob/main/Machine%20Learning/Pestticides_Decision_Tree_Regression.ipynb
+ -Facebook Prophet:
+ https://github.com/Saymanning/Honey_Bee_Colony_Loss_US/blob/main/Machine%20Learning/FBprophet_v2.ipynb
  
 
 
