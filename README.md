@@ -136,13 +136,9 @@ ETL:
 
 
  ### Dashboard: 
-   A dashboard and a story for this project were created in Tableau.
-   
-   - Dashboard
-   https://public.tableau.com/views/Honey_BeeColony_Loss_US/HoneyBeeColonyDashboard?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link
-   
-   - Tableau Story: 
-   https://public.tableau.com/shared/M8ZK2BDCS?:display_count=n&:origin=viz_share_link
+   A for this project was created in Tableau.
+   - Dashboard Link:
+  https://public.tableau.com/views/HoneyBeeProject/HoneyBeeColonyLossintheUS?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link
    
  ### Conclusions:
  - Our analysis confirms that honey bee colony loss is on the rise. We can also conclude that there are many stressors and environmental issues contributing to honey bee colony loss, which can vary in severity from year to year. With so many variables, it is likely that multiple stressors, rather than one single stressor, are responsible for the increase in loss of managed honey bee colonies. We encountered another complication where some of the stressors we analyzed can interact with each other. For example, poor nutrition can weaken the immune systems in honey bees which makes them more likely die from diseases or parasites. In conclusion, further study to gain a better understanding of these stressors can lead to the development of methods to better bee colony health and management practices in commercial beekeeping operations.
