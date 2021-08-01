@@ -78,6 +78,7 @@ ETL:
 
 
 ### Machine Learning Model:
+- **Linear Regression:**
    - Initially, we chose to perform a linear regression analysis on two datasets we collected. Linear regression can show a relationship between variables and allows for forecasting future trends. After reviewing the analysis, it was decided to run a multi-linear regression due to the addition of a third dataset.
 
    - We used the Linear Regression model to train_test_split our Honey Bee loss prediction. First, the below graph shows the relationship of Years to Loss Colonies from 2015-2020.
@@ -95,13 +96,18 @@ ETL:
  - Our group decided to further investigate and analyze another question we hope to address in this analysis. Does climate change, pollution, loss of biodiversity and habitat due to population growth contribute to honey bee colony loss? Population growth in the US means increased resource consumption. Our country's biodiversity is disrupted and harmed  by the waste that is produced, which pollutes habitat and poisons wildlife, and the need for more wildlife habitat to be converted into agricultural and urban land.
  
  - A new dataset was downloaded in csv format from the US Dpartemnt of Census. The data was cleaned and converted to a dataframe using Pandas. Our next step was to run an ARIMA model with the addition of this new dataset.
- - ARIMA
+ - **ARIMA:**
  https://github.com/Saymanning/Honey_Bee_Colony_Loss_US/blob/3a5924243e557f4ab1b6f861ba10f588f2f342a4/Machine%20Learning/Arima_Regression.ipynbWe 
- - Random Forest Regression:
+ 
+ - **Random Forest Regression:**
  https://github.com/Saymanning/Honey_Bee_Colony_Loss_US/blob/main/Machine%20Learning/Random_Forest_Regression.ipynb
- - Pesticides Decision Tree Regression:
+ 
+ - **Pesticides Decision Tree Regression:**
+ Our team completed two decision tree regression comparing the year and percent lost in one and comparing the percent lost and the pestticides in another. The decision was based on our goal to identify how the stressors affect the bee colonies. Although the code ran effectively, the model shows no correlation relationship.
  https://github.com/Saymanning/Honey_Bee_Colony_Loss_US/blob/main/Machine%20Learning/Pestticides_Decision_Tree_Regression.ipynb
- - Facebook Prophet:
+ 
+ 
+ - **Facebook Prophet:**
  https://github.com/Saymanning/Honey_Bee_Colony_Loss_US/blob/main/Machine%20Learning/FBprophet_v2.ipynb
  
 
@@ -141,7 +147,7 @@ ETL:
  https://public.tableau.com/views/HoneyBeeProject/HoneyBeeColonyLossintheUS?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link
    
  ### Conclusions:
- - Our analysis confirms that honey bee colony loss is on the rise. We can also conclude that there are many stressors and environmental issues contributing to honey bee colony loss, which can vary in severity from year to year. With so many variables, it is likely that multiple stressors, rather than one single stressor, are responsible for the increase in loss of managed honey bee colonies. We encountered another complication where some of the stressors we analyzed can interact with each other. For example, poor nutrition can weaken the immune systems in honey bees which makes them more likely die from diseases or parasites. In conclusion, further study to gain a better understanding of these stressors can lead to the development of methods to better bee colony health and management practices in commercial beekeeping operations.
+ -  Our analysis confirms that honey bee colony loss is on the rise. The Linear Regression model we chose was able to show that stressors are contributing to honey bee colony loss significantly. We can also conclude that there are many stressors and environmental issues contributing to honey bee colony loss, which can vary in severity from year to year. With so many variables, it is likely that multiple stressors, rather than one single stressor, are responsible for the increase in loss of managed honey bee colonies. We encountered another complication where some of the stressors we analyzed can interact with each other. For example, poor nutrition can weaken the immune systems in honey bees which makes them more likely die from diseases or parasites. In conclusion, further study to gain a better understanding of these stressors can lead to the development of methods to better bee colony health and management practices in commercial beekeeping operations.
  
  What else can be done?
  - Further research and analysis in area of climate change. One of the biggest impacts of climate change on honey bees is change in foraging resources over the landscape.  As plants emerge at different times compared to years past, plant-pollinator relationships can fall out of sync.
