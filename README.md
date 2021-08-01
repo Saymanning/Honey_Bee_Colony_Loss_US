@@ -77,7 +77,7 @@ ETL:
 
 
 
-### Machine Learning Model:
+### Machine Learning Models:
 - **Linear Regression:**
    - Initially, we chose to perform a linear regression analysis on two datasets we collected. Linear regression can show a relationship between variables and allows for forecasting future trends. After reviewing the analysis, it was decided to run a multi-linear regression due to the addition of a third dataset.
 
@@ -95,9 +95,11 @@ ETL:
 
  - Our group decided to further investigate and analyze another question we hope to address in this analysis. Does climate change, pollution, loss of biodiversity and habitat due to population growth contribute to honey bee colony loss? Population growth in the US means increased resource consumption. Our country's biodiversity is disrupted and harmed  by the waste that is produced, which pollutes habitat and poisons wildlife, and the need for more wildlife habitat to be converted into agricultural and urban land.
  
- - A new dataset was downloaded in csv format from the US Dpartemnt of Census. The data was cleaned and converted to a dataframe using Pandas. Our next step was to run an ARIMA model with the addition of this new dataset.
- - **ARIMA:**
- https://github.com/Saymanning/Honey_Bee_Colony_Loss_US/blob/3a5924243e557f4ab1b6f861ba10f588f2f342a4/Machine%20Learning/Arima_Regression.ipynbWe 
+ - A new dataset of population by state in the US was downloaded in csv format from the US Dpartemnt of Census. The data was cleaned and converted to a dataframe using Pandas. 
+ 
+ - **ARIMA Regression:**
+Our next step was to run an ARIMA Regression model with the addition of the new dataset. We chose to run an ARIMA Regrssion beause we thought it would be a good fit for a time series analysis. Unfortunately, we were not able to complete the model.
+https://github.com/Saymanning/Honey_Bee_Colony_Loss_US/blob/3a5924243e557f4ab1b6f861ba10f588f2f342a4/Machine%20Learning/Arima_Regression.ipynbWe 
  
  - **Random Forest Regression:**
  https://github.com/Saymanning/Honey_Bee_Colony_Loss_US/blob/main/Machine%20Learning/Random_Forest_Regression.ipynb
@@ -108,6 +110,7 @@ ETL:
  
  
  - **Facebook Prophet:**
+We attempted to perform another time series analysis using Facebook Prophet. We used the year and population datasets to find out if the model would show any trends. We had limited and resources left to complete the model. We were not able to complete the model in time.
  https://github.com/Saymanning/Honey_Bee_Colony_Loss_US/blob/main/Machine%20Learning/FBprophet_v2.ipynb
  
 
