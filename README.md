@@ -78,7 +78,7 @@ ETL:
 
 ### Machine Learning Models:
 - **Linear Regression:**
-   - Initially, we chose to perform a linear regression analysis on two datasets we collected. Linear regression can show a relationship between variables and allows for forecasting future trends. After reviewing the analysis, it was decided to run a multi-linear regression due to the addition of a third dataset.
+   - Initially, we chose to perform a linear regression analysis on two datasets we collected. Linear regression can show a relationship between variables and allows for forecasting future trends. After reviewing the analysis, it was decided to run a multi-linear regression due to the addition of a third dataset, however, there was a problem with our code. The model kept trying to convert the State, which was string, into float data type.
 
    - We used the Linear Regression model to train_test_split our Honey Bee loss prediction. First, the below graph shows the relationship of Years to Loss Colonies from 2015-2020.
    - Next, the second image highlights the small progression of colony loss (yellow highlight) while also showing the red prediction line. The below charts shows a small incline in colony loss over all states. We found that due to the high variability of factors causing honey bee colony loss, it is difficult to determine whether one variable is more prevalent than another. 
@@ -92,7 +92,7 @@ ETL:
 ![image](https://user-images.githubusercontent.com/78371845/126091182-d0fa152f-fc0c-4f7b-a341-94f79c712f14.png)
 
 
- - Our group decided to further investigate and analyze another question we hope to address in this analysis. Does climate change, pollution, loss of biodiversity and habitat due to population growth contribute to honey bee colony loss? Population growth in the US means increased resource consumption. Our country's biodiversity is disrupted and harmed  by the waste that is produced, which pollutes habitat and poisons wildlife, and the need for more wildlife habitat to be converted into agricultural and urban land.
+ - Later, our group decided to further investigate and analyze another question we hope to address in this analysis. Does climate change, pollution, loss of biodiversity and habitat due to population growth contribute to honey bee colony loss? Population growth in the US means increased resource consumption. Our country's biodiversity is disrupted and harmed  by the waste that is produced, which pollutes habitat and poisons wildlife, and the need for more wildlife habitat to be converted into agricultural and urban land.
  
  - A new dataset of population by state in the US was downloaded in csv format from the US Dpartemnt of Census. The data was cleaned and converted to a dataframe using Pandas. 
  
@@ -112,6 +112,8 @@ https://github.com/Saymanning/Honey_Bee_Colony_Loss_US/blob/3a5924243e557f4ab1b6
 We attempted to perform another time series analysis using Facebook Prophet. We used the year and population datasets to find out if the model would show any trends. We had limited and resources left to complete the model. We were not able to complete the model in time.
  https://github.com/Saymanning/Honey_Bee_Colony_Loss_US/blob/main/Machine%20Learning/FBprophet_v2.ipynb
  
+
+If additional time were allotted, we recommend further pursuit of the multi-linear and simple linear models. 
 
 
 
