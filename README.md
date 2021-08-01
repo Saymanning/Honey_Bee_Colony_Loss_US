@@ -92,7 +92,7 @@ ETL:
 ![image](https://user-images.githubusercontent.com/78371845/126091182-d0fa152f-fc0c-4f7b-a341-94f79c712f14.png)
 
 
- - Later, our group decided to further investigate and analyze another question we hope to address in this analysis. Does climate change, pollution, loss of biodiversity and habitat due to population growth contribute to honey bee colony loss? Population growth in the US means increased resource consumption. Our country's biodiversity is disrupted and harmed  by the waste that is produced, which pollutes habitat and poisons wildlife, and the need for more wildlife habitat to be converted into agricultural and urban land.
+ - Our group decided to further investigate and analyze another question we hope to address in this analysis. Does climate change, pollution, loss of biodiversity and habitat due to population growth contribute to honey bee colony loss? Population growth in the US means increased resource consumption. Our country's biodiversity is disrupted and harmed  by the waste that is produced, which pollutes habitat and poisons wildlife, and the need for more wildlife habitat to be converted into agricultural and urban land.
  
  - A new dataset of population by state in the US was downloaded in csv format from the US Dpartemnt of Census. The data was cleaned and converted to a dataframe using Pandas. 
  
