@@ -149,8 +149,8 @@ ETL:
  ### Conclusions:
  -  Our analysis confirms that honey bee colony loss is on the rise. The Linear Regression model we chose was able to show that stressors are contributing to honey bee colony loss significantly. We can also conclude that there are many stressors and environmental issues contributing to honey bee colony loss, which can vary in severity from year to year. With so many variables, it is likely that multiple stressors, rather than one single stressor, are responsible for the increase in loss of managed honey bee colonies. We encountered another complication where some of the stressors we analyzed can interact with each other. For example, poor nutrition can weaken the immune systems in honey bees which makes them more likely die from diseases or parasites. In conclusion, further study to gain a better understanding of these stressors can lead to the development of methods to better bee colony health and management practices in commercial beekeeping operations.
  
- What else can be done?
- - Further research and analysis in area of climate change. One of the biggest impacts of climate change on honey bees is change in foraging resources over the landscape.  As plants emerge at different times compared to years past, plant-pollinator relationships can fall out of sync.
+ ### Next Steps; What else can be done?
+ - Further  analysis in area of climate change. One of the biggest impacts of climate change on honey bees is change in foraging resources over the landscape.  As plants emerge at different times compared to years past, plant-pollinator relationships can fall out of sync.
  - Having proper habitat and diversity for honey bees helps bees to mitigate a multitude of stressors, including pests and diseases, pesticides and transportation. 
  - Educate the public as well as growers and landowners about the value of providing honey bee forage, many acres of potential honey bee habitat can be made available to sustain nutrition-starved honey bees
    
