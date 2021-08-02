@@ -92,7 +92,7 @@ ETL:
 ![image](https://user-images.githubusercontent.com/78371845/126091182-d0fa152f-fc0c-4f7b-a341-94f79c712f14.png)
 
 
- - Later, our group decided to further investigate and analyze another question we hope to address in this analysis. Does climate change, pollution, loss of biodiversity and habitat due to population growth contribute to honey bee colony loss? Population growth in the US means increased resource consumption. Our country's biodiversity is disrupted and harmed  by the waste that is produced, which pollutes habitat and poisons wildlife, and the need for more wildlife habitat to be converted into agricultural and urban land.
+ - Our group made the decision to further investigate and analyze another question we had hoped to address in this analysis. Does climate change, pollution, loss of biodiversity and habitat due to population growth contribute to honey bee colony loss? Population growth in the US means increased resource consumption. Our country's biodiversity is disrupted and harmed  by the waste that is produced, which pollutes habitat and poisons wildlife, and the need for more wildlife habitat to be converted into agricultural and urban land.
  
  - A new dataset of population by state in the US was downloaded in csv format from the US Dpartemnt of Census. The data was cleaned and converted to a dataframe using Pandas. 
  
@@ -155,7 +155,7 @@ We attempted to perform another time series analysis using Facebook Prophet. We 
  ### Conclusions:
  -  Our analysis confirms that honey bee colony loss is on the rise. The Linear Regression model we chose was able to show that stressors are contributing to honey bee colony loss significantly. We can also conclude that there are many stressors and environmental issues contributing to honey bee colony loss, which can vary in severity from year to year. With so many variables, it is likely that multiple stressors, rather than one single stressor, are responsible for the increase in loss of managed honey bee colonies. We encountered another complication where some of the stressors we analyzed can interact with each other. For example, poor nutrition can weaken the immune systems in honey bees which makes them more likely die from diseases or parasites. In conclusion, further study to gain a better understanding of these stressors can lead to the development of methods to better bee colony health and management practices in commercial beekeeping operations.
  
- ### Next Steps; What else can be done?
+ ### Next Steps: What else can be done?
  - Further  analysis in area of climate change. One of the biggest impacts of climate change on honey bees is change in foraging resources over the landscape.  As plants emerge at different times compared to years past, plant-pollinator relationships can fall out of sync.
  - Having proper habitat and diversity for honey bees helps bees to mitigate a multitude of stressors, including pests and diseases, pesticides and transportation. 
  - Educate the public as well as growers and landowners about the value of providing honey bee forage, many acres of potential honey bee habitat can be made available to sustain nutrition-starved honey bees
